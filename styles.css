@@ -1,0 +1,414 @@
+.TopBar {
+
+
+    width: 100vw;
+    height: 20vh;
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: red;
+    animation-name: BarZoomOut;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+    
+    
+    
+}
+
+
+.MainLogoDiv {
+
+    width: 50vw;
+    height: 30vh;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+.ItemDiv {
+
+    width: 15vw;
+    height: 30vh;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    animation-name: ItemDivOut;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+    flex-direction: column;
+    
+    
+}
+
+.Items {
+
+    width: 80vw;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Background {
+    background-image: url("Images/23.jpg");
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-size: 200vh;
+
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.TopBarLogo {
+
+
+    width: 20vw;
+    height: 20vh;
+    margin-top: 2vh;
+    animation-name: TextZoomOutNS;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+    
+
+}
+
+.Navi {
+    text-align: center;
+    width: 5vw;
+    height: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 3vh;
+    color: gray;
+    animation-name: TextZoomOutNS;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+    text-decoration: none;
+
+}
+
+
+.MainLogo {
+
+    width: 40vw;
+    height: 40vh;
+    display: inline-block;
+    margin: auto;  
+    animation-name: TextZoomOut;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+    
+}
+
+.Item {
+
+    width: 15vw;
+    height: 20vh;
+    display: inline-block;
+    margin: auto;  
+    animation-name: ItemHighlightOut ;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+    
+}
+
+.MissionStatement {
+
+    color: white;
+    font-size: 8vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    animation-name: TextZoomOut;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+    
+    
+}
+
+.FoundingInfo {
+
+    color: white;
+    font-size: 2vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    animation-name: TextZoomOut;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+    
+    
+}
+
+.ItemInfo {
+
+    color: white;
+    font-size: 2vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: TextZoomOut;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+    
+    
+}
+
+.click {
+
+    color: white;
+    font-size: 2vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: TextZoomOut;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+    
+    
+}
+
+.FoundingInfo:hover {
+    animation-name: TextZoomIn;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+}
+
+.MainLogo:hover {
+    animation-name: TextZoomIn;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+}
+
+.Item:hover {
+    animation-name: ItemHighlightIn;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+}
+
+
+.MissionStatement:hover {
+    animation-name: TextZoomIn;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+}
+
+.Navi:hover {
+    animation-name: TextZoomInNS;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+}
+
+.TopBarLogo:hover {
+    animation-name: TextZoomInNS;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+
+
+}
+
+.ItemDiv:hover {
+    animation-name: ItemDivIn;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+
+
+}
+
+
+.TopBar:hover {
+    animation-name: BarZoomIn;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+}
+
+
+
+
+
+  
+@keyframes TextZoomIn {
+    from {
+        scale: 100%;
+        text-shadow: 0px 0px 0px red;
+    }
+  
+    to {
+        scale: 120%;
+        text-shadow: 0px 0px 10px red;
+    }
+  }
+
+@keyframes TextZoomOut {
+    from {
+        scale: 120%;
+        text-shadow: 0px 0px 10px red;
+    }
+  
+    to {
+        scale: 100%;
+        text-shadow: 0px 0px 0px red;
+    }
+  }
+
+  @keyframes ItemDivIn {
+    from {
+        scale: 100%;
+        border-style: none;
+        border-color: white;
+        text-shadow: 0px 0px 0px white;
+    }
+  
+    to {
+        scale: 120%;
+        border-style: solid;
+        border-color: white;
+        text-shadow: 0px 0px 10px white;
+    }
+  }
+
+@keyframes ItemDivOut {
+    from {
+        scale: 120%;
+        border-style: solid;
+        text-shadow: 0px 0px 10px white;
+    }
+  
+    to {
+        scale: 100%;
+        border-style: none;
+        text-shadow: 0px 0px 0px white;
+    }
+  }
+
+
+  @keyframes TextZoomInNS {
+    from {
+        scale: 100%;
+    }
+  
+    to {
+        scale: 120%;
+    }
+  }
+
+  @keyframes TextZoomOutNS {
+    from {
+        scale: 120%;
+    }
+  
+    to {
+        scale: 100%;
+    }
+  }
+
+
+  @keyframes ItemHighlightIn {
+    from {
+    }
+  
+    to {
+    }
+  }
+
+  @keyframes ItemHighlightOut {
+    from {
+    }
+  
+    to {
+    }
+  }
+
+@keyframes BarZoomIn {
+    from {
+        height: 7vh;
+    }
+  
+    to {
+        height: 25vh;
+    }
+  }
+
+
+@keyframes BarZoomOut {
+    from {
+        height: 25vh;
+    }
+  
+    to {
+        height: 7vh;
+    }
+  }
+
+
+
+
+
+
